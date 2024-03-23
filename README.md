@@ -69,6 +69,19 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by:S VAISHNAV NANDA
  RegisterNumber: 212222240112
 ```
+```
+module logicgate_top(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+nand(y4,a,b);
+nor(y5,a,b);
+xor(y6,a,b);
+xnor(y7,a,b);
+endmodule
+```
  ## PROGRAM
  ![Screenshot 2024-03-13 153354](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/91cd9c06-dc03-4c8c-9aca-5f9e3eab0189)
 
